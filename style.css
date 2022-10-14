@@ -15,12 +15,52 @@
 body{
     min-width: 60rem;
     overflow-wrap: normal;
+    background-color: #F2DBEE;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2DBEE;
+    min-height: 15vh;
+
+ }
+
+.logo{
+    width: 30%;
+    position: relative;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 150%;
+    margin-right: 20%;
     
 }
 
 
+ul li{
+    list-style-type: none;
+}
 
-.logo{
-    width: 30%;
+
+
+.list ul li a{
+
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    z-index: 100;
+    text-decoration: none;
+    color: black;
+
+}
     
+.list ul li a :hover{
+    color: rgb(74, 13, 148);
 }
